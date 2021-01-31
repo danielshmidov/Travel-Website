@@ -78,6 +78,8 @@ nav ul {
 }
 #logo {
   flex: 2 1 40rem;
+  font-family: "Pattaya", sans-serif;
+  font-weight: 400;
 }
 
 .hero {
