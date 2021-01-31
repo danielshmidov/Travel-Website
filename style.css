@@ -119,6 +119,7 @@ nav ul {
   justify-content: center;
   align-items: center;
   position: relative;
+  overflow: hidden;
 }
 
 .locations-head {
@@ -146,6 +147,7 @@ nav ul {
   position: absolute;
   top: 0%;
   right: 0%;
+  animation: cloudAnimation 3s infinite alternate ease-in-out;
 }
 
 .moving-cloud-1 {
@@ -155,6 +157,15 @@ nav ul {
   top: 20%;
   z-index: -1;
   opacity: 0.5;
+}
+
+@keyframes cloudAnimation {
+  from {
+    transform: translate(10%, -10%);
+  }
+  to {
+    transform: translate(0%, 0%);
+  }
 }
 
 /* Media Query */
