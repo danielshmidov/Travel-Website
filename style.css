@@ -10,6 +10,10 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 h1 {
   font-size: 2.6rem;
 }
@@ -42,6 +46,7 @@ h2 {
 
 h3 {
   font-size: 3rem;
+  font-weight: normal;
 }
 
 h4,
