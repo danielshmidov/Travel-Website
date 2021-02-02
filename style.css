@@ -137,9 +137,6 @@ nav ul {
 .locations-head h3 {
   /* This is a cool daw to do gradient on text */
   padding: 0rem 4rem;
-  background: linear-gradient(#131c27, #663b34);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .cloud {
@@ -183,8 +180,39 @@ nav ul {
   text-align: center;
 }
 
-.benefits-head {
+.benefits-head h3 {
   padding: 1rem;
+}
+
+.cards {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  min-height: 70vh;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  text-align: center;
+  flex: 1 1 25rem;
+  min-height: 40vh;
+  margin: 2rem 5rem;
+  box-shadow: 0px 10px 10px rgb(0, 0, 0, 0.1), 0px 20px 20px rgb(0, 0, 0, 0.1);
+}
+
+.card img {
+  max-width: 15%;
+  margin: 2rem;
+}
+
+.card h4,
+p {
+  padding: 1rem;
+}
+
+.card-icon {
+  background: #131c27;
 }
 
 /* Media Query */
